@@ -1,0 +1,66 @@
+.image-pessoa{
+    max-height: 14rem;
+    max-width: 14rem;
+    transition: border-radius .3s ease-in-out;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),5px 5px 6px -3px rgba(0,0,0,0.5);
+}
+.image-pessoa:hover{
+    border-radius: 5px !important;
+}
+i{
+    font-size: 1.5rem;
+}
+.light{
+    color: #bdbdbd;
+}
+
+button{
+    font-weight: 500 !important;
+    white-space: nowrap;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),5px 5px 6px -3px rgba(0,0,0,0.5);
+    background-color: #F8F9FA;
+}
+
+button:hover .fa-redo{
+    animation: rotate .7s ease-in-out;
+}
+button i{
+    font-size: 1rem;
+}
+.content{
+    justify-items: stretch;
+}
+.info h5{
+    cursor: pointer;
+    transition: transform .3s ease-in-out, color .3s ease-in-out;
+}
+.info h5:hover{
+    transform: scale(1.1);
+    color: #F8F9FA;
+}
+
+.title{
+    position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(241,241,241,0.4);
+    border-radius: 100%;
+    transform: rotate(30deg);
+}
+
+
+@keyframes rotate{
+    0% {
+        transform: rotateZ(0deg);
+
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
