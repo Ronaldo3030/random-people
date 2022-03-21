@@ -9,4 +9,4 @@
   <li><a href="https://randomuser.me/" target="_blank">Rando User Generator</a></li>
 </ul>
 
-Site ainda em desenvolvimento <a href="https://ronaldo3030.github.io/pokemon-with-pokeapi/" target="_blank">Link do site</a> 🚧💻
+Site: <a href="https://ronaldo3030.github.io/random-people/" target="_blank">Link do site</a>
